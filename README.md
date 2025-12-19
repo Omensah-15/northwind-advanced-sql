@@ -1,6 +1,7 @@
 # northwind-advanced-sql
 
 ## Database Structure
+```mermaid
 erDiagram
     CustomerCustomerDemo }o--|| CustomerDemographics : have
     CustomerCustomerDemo }o--|| Customers : through
@@ -15,7 +16,6 @@ erDiagram
     EmployeeTerritories }o--|| Territories : have
     Orders }o--|| Customers : place
     Orders }o--|| Employees : "sold by"
-
 
     Categories {
         int CategoryID PK
@@ -131,4 +131,5 @@ erDiagram
         string TerritoryDescription
         int RegionID FK
     }
+```
 
