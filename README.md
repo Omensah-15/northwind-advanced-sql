@@ -1,8 +1,7 @@
 # Northwind Database Advanced Analytics(SQL)
 
 ## Project Overview
-
-This project contains a comprehensive analysis of the classic Northwind Traders database - a sample database representing a fictional company's sales, inventory, and customer data. The repository a complete set of advanced SQL analytics questions designed to test and demonstrate expertise in database querying, optimization, and business intelligence.
+This project contains a comprehensive analysis of the classic Northwind Traders database - a sample database representing a fictional company's sales, inventory, and customer data. The repository includes an ER diagram visualization and a complete set of advanced SQL analytics questions designed to test and demonstrate expertise in database querying, optimization, and business intelligence.
 
 ## Database Structure
 ```mermaid
