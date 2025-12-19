@@ -1,4 +1,4 @@
-# northwind-advanced-sql
+# Northwind Database Advanced Analytics(SQL)
 
 ## Project Overview
 
