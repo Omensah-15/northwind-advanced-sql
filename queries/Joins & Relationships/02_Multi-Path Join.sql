@@ -1,6 +1,6 @@
 /*
 Question:
-Find sustomers who have purchased  from more than 5 suppliers.
+Find customers who have purchased from more than 5 suppliers.
 
 Business Context:
 This analysis helps identify customers with diverse supply chains,
