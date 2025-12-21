@@ -7,6 +7,9 @@ This query helps organizations visualize their management hierarchy up to 3 leve
 useful for understanding reporting structures, span of control analysis, and organizational planning.
 Commonly used in HR analytics, org chart generation, and management reporting.
 
+Approach:
+Started with the employees table, then recursively followed the reporting relationships to capture each employee’s direct and indirect reports up to 3 levels. 
+For each employee, I built the management chain showing who reports to whom at each level.
 */
 
 WITH RECURSIVE employees_hierarchy AS (
