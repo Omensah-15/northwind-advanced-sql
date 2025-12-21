@@ -10,9 +10,9 @@ supply chain managers to assess customer dependencies, and strategic planners fo
 market segmentation.
 
 Approach:
-1.Join Customers -> Orders -> order details -> Products -> Suppliers
-2. Count distinct suppliers pe Customer.
-3. filter supplier count > 5
+I started with individual order details, linked them to orders and customers, 
+then linked products to suppliers. 
+I counted how many distinct suppliers each customer purchased from and filtered to customers with more than 5 suppliers.
 */
 
 SELECT c.CustomerID,
